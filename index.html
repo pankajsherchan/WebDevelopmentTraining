@@ -1,74 +1,96 @@
 <html>
   <head>
-    <title>Basic CSS Training</title>
-    <!-- INTERNAL CSS -->
-    <!-- <style>
-      h1 {
-        color: red;
-      }
-
-      p {
-        background-color: yellow;
-      }
-    </style> -->
-
-    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>Web Development Training</title>
   </head>
 
   <body>
-    <!-- Inline CSS -->
-    <!-- <h1 style="color: red">Heading 1</h1> -->
 
-    <!-- Inline CSS -->
-    <!-- <p style="background-color: yellow">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque odio
-      praesentium vel repellat autem aspernatur ab, illum quos suscipit culpa
-      nihil adipisci maiores unde placeat error! In fuga similique reprehenderit
-      quos maxime saepe consequuntur dicta amet. Quaerat tempora repellendus
-      expedita qui earum, placeat quisquam mollitia sit doloribus in facere
-      veritatis.
-    </p> -->
+    <a href="about.html"> Go to About Page</a>
 
-    <!-- ID AND CLASS -->
+    <!-- Heading -->
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
 
-    <h1 class="firstheading">Heading 1</h1>
+    <!-- Paragraphs -->
+    span is inline element - displays in same line
+    <p>This is a paragraph <span> This is a span </span></p>
 
-    <p class="firstparagraph">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque odio
-      praesentium vel repellat autem aspernatur ab, illum quos suscipit culpa
-      nihil adipisci maiores unde placeat error! In fuga similique reprehenderit
-      quos maxime saepe consequuntur dicta amet. Quaerat tempora repellendus
-      expedita qui earum, placeat quisquam mollitia sit doloribus in facere
-      veritatis.
-    </p>
+    <!-- block element displays in separate line -->
+    <p>This is a paragraph <h4> This is a heading 4 </h4></p>  
 
-    <p class="firstparagraph">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque odio
-      praesentium vel repellat autem aspernatur ab, illum quos suscipit culpa
-      nihil adipisci maiores unde placeat error! In fuga similique reprehenderit
-      quos maxime saepe consequuntur dicta amet. Quaerat tempora repellendus
-      expedita qui earum, placeat quisquam mollitia sit doloribus in facere
-      veritatis.
-    </p>
+    <div>
+        This is a division
+    </div> 
 
-    <p class="firstparagraph">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque odio
-      praesentium vel repellat autem aspernatur ab, illum quos suscipit culpa
-      nihil adipisci maiores unde placeat error! In fuga similique reprehenderit
-      quos maxime saepe consequuntur dicta amet. Quaerat tempora repellendus
-      expedita qui earum, placeat quisquam mollitia sit doloribus in facere
-      veritatis.
-    </p>
+    <!-- Image -->
+    <img src="dog.jpeg" alt="Random Dog" width="200" height="200"> 
 
-    <h1 class="secondheading">This is another heading 1</h1>
+    <!-- Lists -->
+    <!-- Unordered List -->
+    <ul>
+      <!-- list item -->
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
 
-    <p class="secondparagraph">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque odio
-      praesentium vel repellat autem aspernatur ab, illum quos suscipit culpa
-      nihil adipisci maiores unde placeat error! In fuga similique reprehenderit
-      quos maxime saepe consequuntur dicta amet. Quaerat tempora repellendus
-      expedita qui earum, placeat quisquam mollitia sit doloribus in facere
-      veritatis.
-    </p>
+    <!-- ordered list -->
+    <ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+
+    <!-- Table -->
+    <table style="width:20%">
+      <!-- table row -->
+      <tr>
+        <!-- table heading -->
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <!-- table data -->
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+
+    <br />
+    <br />
+    <br />
+    <!-- FORM -->
+    <form>
+      <!-- 
+        for - this is an attribute 
+        attribute - to give more information about the html element -->
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" /> <br />
+      <label for="phone">Phone Number:</label><br />
+      <input type="number" /><br />
+      <label for="email">Email :</label><br />
+      <input type="text" /> <br />
+
+      <!-- Button -->
+      <button>
+        Sign Up
+      </button>
+    </form>
+
+    <!-- Href -->
+    <a href="http://google.com/" target="_blank"> Go to google</a>
   </body>
 </html>
