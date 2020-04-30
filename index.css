@@ -1,0 +1,33 @@
+li {
+  font-size: 20px;
+  display: inline;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+/* 
+li:active {
+  text-decoration: underline;
+} */
+
+li:hover {
+  color: red;
+}
+
+#intro {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 45px;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+}
+
+button {
+  font-size: 25px;
+  background-color: darkblue;
+  color: white;
+  padding: 10px;
+}
